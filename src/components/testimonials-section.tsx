@@ -4,24 +4,24 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const testimonials = [
   {
     name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    role: "Head of Marketing, Quantum Dynamics",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "С Fable 5 мы стали выпускать в 4 раза больше контента. Тексты и картинки под наш бренд — за минуты, а не за дни.",
   },
   {
     name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    role: "CTO, Stellar Analytics",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Fable 5 ускорил нашу разработку в разы. Модель отлично пишет и объясняет код, а огромный контекст держит весь проект целиком.",
   },
   {
     name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    role: "Product Lead, Nova Industries",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Загружаем большие отчёты и получаем чёткие выжимки за секунды. Fable 5 понимает контекст лучше всех моделей, что мы пробовали.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нас уже выбирают команды</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Что говорят те, кто уже работает с Fable 5 каждый день
           </p>
         </div>
 
